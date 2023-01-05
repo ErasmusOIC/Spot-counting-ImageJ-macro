@@ -12,3 +12,6 @@ Expected:
 
  Spot Thershold Mean+2*Sdev 
  van Royen & Houtsmuller  J Cell Biol. 2007 Apr 9;177(1):63-72
+ 
+ Fixed_Nuclei_Stardis_Foci_MeanxSD_AdjWatershed
+ Spot counting macro, using AI Stardist as nuclear segmentation and Mean+factor*SD as threshold for spots. Processes all .tif files in a directory. Expects 2 channel data files with Nuclear staining in channel 1 and Spot staining in channel 2.
